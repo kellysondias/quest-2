@@ -1,10 +1,10 @@
 
-
-
-
-
 .logo {
     float: left;
+}
+
+h1 {
+    float: right;
 }
 
 .header {
@@ -45,7 +45,7 @@ nav {
     display: inline-block;
 }
 
-a {
+.menu-item {
     margin-right: 20px;
     padding: 13px;
     text-align: center;
@@ -62,27 +62,22 @@ li:nth-child(5n) {
 @media (max-width: 376px) {
 
     .header {
-        justify-content: center;
+
     }
     
     .logo {
-        align-content: center;
-        padding-top: 130px;
+        
     }
     .menu {
-        display: block;
-        font-weight: 400;
-        font-size: 40px;
+        display: inline-block;
     }
 
     .menu li {
-        margin-bottom: 40px;
-        margin-right: auto;
+        
     }
 
     .button {
-        display: inline-block;
-        font-size: 15px;
+        
     }
 
 }
