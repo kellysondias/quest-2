@@ -1,0 +1,21 @@
+img {
+    position: relative;
+    max-width: 23%;
+    height: 331px;
+    margin-right: 10px;
+}
+
+div {
+    text-align: center;
+    margin: 130px auto;
+}
+
+h1 {
+    position: absolute;
+    transform: translateX(130px);
+}
+
+
+
+
+

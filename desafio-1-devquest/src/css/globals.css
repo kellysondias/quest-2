@@ -3,6 +3,8 @@
     color: black;
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
 li::marker {
