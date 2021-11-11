@@ -22,6 +22,10 @@ nav {
 }
 
 .header .menu {
+    transform: translateX(-80px);
+}
+
+.header .menu li {
     margin-top: 30px;
     display: inline-block;
 }
@@ -29,8 +33,11 @@ nav {
 .button {
     background-color: #5BC241;
     border-radius: 10px;
-    padding: 10px 21px 11px 21px;
+    padding: 10px 21px 11px 21px; 
+    border-style: none;
     color: white;
+    float: right;
+    transform: translateY(-30px);
 }
 
 .menu-item:hover {
@@ -67,6 +74,7 @@ nav {
 li:nth-child(5n) {
     margin-right: 56px;
 }
+
 
 
 

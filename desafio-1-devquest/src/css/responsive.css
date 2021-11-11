@@ -1,7 +1,7 @@
 @media (max-width: 900px) {
     nav {
         float: none;
-        width: 100%;
+        max-width: 100%;
     }
 
     h1 {
@@ -30,30 +30,32 @@
         font-size: 15px;
         display: block;
         text-align: center;
-        width: 100%;
+        max-width: 100%;
         float: none;
-        background-color: red;
     }
 
     .header .menu {
         display: inline-block;
         padding-top: 30px;
         text-align: center;
-        width: 100%;
-        background-color: blueviolet;
         margin: 0 auto;
+        width: 100%;
+        transform: none;
+        background-color: blue;
     }
 
-    .header .menu ul li {
+    .header .menu li {
         display: block;
         width: 100%;
-        margin-bottom: 2060px;
+        margin-bottom: 20px;
+        padding-right: 37px;
+    }
+
+    .header .menu li a {
+        width: 100%;
+        display: block;
         font-weight: 400;
-    }
-
-    .header .menu ul li a {
-        width: 100%;
-        display: block;
+        font-size: 30px;
     }
 
     li:nth-child(5n) {
@@ -62,8 +64,11 @@
 
     .button {
         display: inline-block;
-        margin-top: 80px;
-        margin-right: 13px;
-        font-size: 12px;
+        margin: 70px 0 0 240px;
+        font-size: 15px;
+        max-width: 100px;
+        text-align: center;
+        transform: none;
+        float: none;
     }
 }
