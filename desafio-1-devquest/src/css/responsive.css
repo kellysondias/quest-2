@@ -1,9 +1,4 @@
 @media (max-width: 900px) {
-    nav {
-        float: none;
-        max-width: 100%;
-    }
-
     h1 {
         line-height: 62px;
     }
@@ -22,40 +17,41 @@
         display: none;
     }
     
-    nav {
+    nav, .header, .header .logo, .header .menu, .button {
         text-align: center;
+    }
+
+    nav, .header, .header .logo, .header .logo a, img, h1 {
+        float: none;
+    }
+
+    nav, .header .logo, .header .menu li, .header .menu li a, .button {
+        max-width: 100%;
     }
 
     .header {
         width: 100%;
-        text-align: center;
     }
 
-    .header .logo a, .header img, h1 {
-        float: none;
-    }
  
     .header .logo {
         font-size: 15px;
         display: block;
-        text-align: center;
         max-width: 100%;
-        float: none;
     }
 
     .header .menu {
         display: inline-block;
         padding-top: 30px;
-        text-align: center;
         margin: 0 auto;
         width: 100%;
         transform: none;
     }
 
 
+
     .header .menu li {
         display: block;
-        width: 100%;
         margin-bottom: 20px;
     }
 
@@ -73,8 +69,6 @@
         display: inline-block;
         margin-top: 50px;
         font-size: 15px;
-        max-width: 100px;
-        text-align: center;
         transform: none;
         float: none;
     }
